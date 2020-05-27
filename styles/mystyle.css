@@ -1,0 +1,50 @@
+html,body {
+	margin: 0%;
+	width: 100%;
+}
+
+.main-container{ 
+ width: 100%;
+ background-color: black;
+ position: relative;
+}
+
+.img-background{
+	width: 100%;
+	background-position: top;
+}
+
+h1{
+	width:100%; 
+	margin-top: 15px;
+	position: absolute;
+	font-size: 9vw;
+	color: white; 
+	font-family:'Calibri', sans-serif;
+	text-align: center;
+	letter-spacing: 8px;
+}
+
+a {   background-color: red;
+	  position: absolute;
+	  border: none;
+	  color: white;
+	  padding: 30px 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 350px 100px;
+	  border-radius: 50%;
+	  font-family:'Calibri', sans-serif;
+	  animation-name: example;
+      animation-duration: 15s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:orange; left:100px; top:0px;}
+  50%  {background-color:red; left:0; top:0px;}
+  75%  {background-color:orange; left:100px; top:0px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
