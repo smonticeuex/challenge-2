@@ -27,14 +27,14 @@ h1{
 
 a {   background-color: none;
 	  position: absolute;
-	  border: 2px solid red;
+	  border: 2px solid blue;
 	  color: white;
-	  padding: 25px 15px;
+	  padding: 30px 15px;
 	  text-align: center;
 	  text-decoration: none;
 	  display: inline-block;
 	  font-size: 16px;
-	  margin: 350px 100px;
+	  margin: 320px 100px;
 	  border-radius: 50%;
 	  font-family:'OCR A', sans-serif;
 	  animation-name: planets;
@@ -42,11 +42,11 @@ a {   background-color: none;
 }
 
 @keyframes planets {
-  0%   {left:0px; top:0px;}
-  25%  {left:80px; top:0px;}
-  50%  {left:0; top:0px;}
-  75%  {left:80px; top:0px;}
-  100% {left:0px; top:0px;}
+  0%   {border: 2px solid blue;left:0px; top:0px;}
+  25%  {border: 2px solid lightblue; left:500px; top:0px;}
+  50%  {border: 2px solid lightgreen; left:1000px; top:0px;}
+  75%  {border: 2px solid lightblue; left:500px; top:0px;}
+  100% {border: 2px solid blue; left:0px; top:0px;}
 }
 
 #time{
