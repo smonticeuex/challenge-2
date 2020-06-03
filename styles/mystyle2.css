@@ -34,20 +34,23 @@ a {   background-color: none;
 	  text-decoration: none;
 	  display: inline-block;
 	  font-size: 16px;
-	  margin: 320px 100px;
+	  margin: 330px 100px;
 	  border-radius: 50%;
 	  font-family:'OCR A', sans-serif;
 	  animation-name: planets;
-      animation-duration: 10s;
+      animation-duration: 20s;
 }
 
 @keyframes planets {
   0%   {border: 2px solid blue;left:0px; top:0px;}
-  25%  {border: 2px solid lightblue; left:500px; top:0px;}
-  50%  {border: 2px solid lightgreen; left:1000px; top:0px;}
-  75%  {border: 2px solid lightblue; left:500px; top:0px;}
+  15%  {border: 2px solid lightblue; left:250px; top:0px;}
+  25%  {border: 2px solid lightgreen; left:500px; top:0px;}
+  50%  {border: 2px solid darkgreen; left:1000px; top:0px;}
+  75%  {border: 2px solid lightgreen; left:500px; top:0px;}
+  85%  {border: 2px solid lightblue; left:250px; top:0px;}
   100% {border: 2px solid blue; left:0px; top:0px;}
 }
+
 
 #time{
 	width: 100%;
